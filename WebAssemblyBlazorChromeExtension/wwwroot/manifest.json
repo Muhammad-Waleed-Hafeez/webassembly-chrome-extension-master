@@ -358,7 +358,7 @@
     "css/app.css",
     "css/open-iconic/font/fonts/open-iconic.woff",
     "css/open-iconic/font/fonts/open-iconic.otf",
-    "chrome-extension://abdoflfodcjhjhmnknkhpbkgfodoelab/framework/blazor.boot.json",
+    "framework/blazor.boot.json",
     "framework/wasm/dotnet.3.2.0.js",
     "framework/wasm/dotnet.timezones.dat",
     "framework/wasm/dotnet.wasm",

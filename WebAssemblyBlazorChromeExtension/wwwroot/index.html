@@ -4,13 +4,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title>WebAssemblyBlazorChromeExtension</title>
-    <!--<base href="chrome-extension://abdoflfodcjhjhmnknkhpbkgfodoelab/" />-->
-    <base href="/" />
-    
-
-
-    <link href="chrome-extension://abdoflfodcjhjhmnknkhpbkgfodoelab/css/bootstrap/bootstrap.min.css" rel="stylesheet" />
-    <link href="chrome-extension://abdoflfodcjhjhmnknkhpbkgfodoelab/css/app.css" rel="stylesheet" />
+    <base href="chrome-extension://abdoflfodcjhjhmnknkhpbkgfodoelab/" />
+    <!--<base href="/" />-->
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/app.css" rel="stylesheet" />
 
 
 </head>
@@ -21,18 +18,10 @@
         <a href="" class="reload">Reload</a>
         <a class="dismiss">🗙</a>
     </div>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="framework/blazor.webassembly.js"></script>
+    <script src="js/site.js"></script>
 
-
-    <script src="chrome-extension://abdoflfodcjhjhmnknkhpbkgfodoelab/js/jquery-3.5.1.min.js"></script>
-    <script src="chrome-extension://abdoflfodcjhjhmnknkhpbkgfodoelab/framework/blazor.webassembly.js"></script>
-    <script src="chrome-extension://abdoflfodcjhjhmnknkhpbkgfodoelab/js/site.js"></script>
-    <!--<script src="chrome-extension://abdoflfodcjhjhmnknkhpbkgfodoelab/framework/blazor.boot.json"></script>-->
-
-    <!--<script>
-        fetch("chrome-extension://abdoflfodcjhjhmnknkhpbkgfodoelab/framework/blazor.boot.json")
-            .then(response => response.json())
-            .then(json => console.log("fetch json => ",json));
-    </script>-->
 
 </body>
 </html>
